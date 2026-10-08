@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoja de Vida</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: Arial, sans-serif;
+        }
+
+        .hoja {
+            width: 700px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 30px;
+            border: 1px solid black;
+        }
+
+        .encabezado {
+            text-align: center;
+        }
+
+        .foto {
+            width: 120px;
+            height: 120px;
+            border: 1px solid black;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        h2 {
+            background-color: lightblue;
+            padding: 8px;
+            border: 1px solid black;
+        }
+
+        .datos {
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        .seccion {
+            margin-top: 25px;
+            border-bottom: 2px solid black;
+            padding-bottom: 15px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hoja">
+
+        <!-- ENCABEZADO -->
+        <div class="encabezado">
+
+            <img src="foto.jpg" alt="Foto personal" class="foto">
+
+            <h1>HOJA DE VIDA</h1>
+
+            <h3>Julián Yadir Chávez Reina</h3>
+
+        </div>
+
+
+        <!-- 1. DATOS PERSONALES -->
+        <div class="seccion">
+
+            <h2>1. Datos personales</h2>
+
+            <div class="datos">
+                <p><b>Nombre:</b> Julián Yadir Chávez Reina</p>
+
+                <p><b>Documento:</b> 123456789</p>
+
+                <p><b>Teléfono:</b> 300 123 4567</p>
+
+                <p><b>Correo:</b> julian.chr@gmail.com</p>
+
+                <p><b>Ciudad:</b> Bogotá, Colombia</p>
+            </div>
+
+        </div>
+
+
+        <!-- 2. ESTUDIOS ACADÉMICOS -->
+        <div class="seccion">
+
+            <h2>2. Estudios académicos</h2>
+
+            <div class="datos">
+
+                <p><b>Educación secundaria:</b> Bachiller académico</p>
+
+                <p><b>Institución:</b> Colegio Mi Primera Puñalada</p>
+
+                <p><b>Educación superior:</b> Ingeniería de Sistemas</p>
+
+                <p><b>Institución:</b> Universidad ECCI</p>
+
+            </div>
+
+        </div>
+
+
+        <!-- 3. EXPERIENCIA LABORAL -->
+        <div class="seccion">
+
+            <h2>3. Experiencia laboral</h2>
+
+            <div class="datos">
+
+                <p><b>Empresa:</b> Empresa Seguros Bolivar</p>
+
+                <p><b>Cargo:</b> Técnico</p>
+
+                <p><b>Tiempo:</b> 2019 - 2026</p>
+
+                <p><b>Funciones:</b> Mantenimiento de impresoras, equipos y soporte de red.</p>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
